@@ -15,7 +15,7 @@
     --block2-color: #DEEEFA;
     --block3-color: #0F99FF;
 
-    --font-family: Arial, Helvetica, sans-serif;
+    --font-family: "Metrophobic", sans-serif;
 
     --margin-top-: 50px;
 }
@@ -24,6 +24,7 @@
     width: 1200px;
     height: auto;
     margin: auto;
+    
 }
 
 body{
@@ -408,6 +409,9 @@ header{
 }
 .right1img img{
     width: 70%;  
+}
+.camket-right p{
+
 }
 .camket-right .right2{
     display: flex;
