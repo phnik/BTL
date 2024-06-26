@@ -34,10 +34,12 @@
 
 body{
     font-size: 1.2rem;
-    font-family: Raleway, sans-serif;
+    /* font-family: Raleway, sans-serif; */
+    font-family: var(--font-family);
     background-color: #fff;
 }
 .container{
+    padding-top: 100px;
     max-width: var(--max-width);
     margin: 0 auto;
     font-family:var(--font-family);
@@ -123,12 +125,11 @@ a{
     color: white;
     cursor: pointer;
 }
-.schedule{
-    color:var(--text2-color);
+
+.schedule a{
+    color: inherit;
 }
-.schedule a:hover{
-    color: white;
-}
+
 
 .box h2{
     font-size: 1.5rem;
@@ -149,7 +150,7 @@ a{
     gap: 10px;
 }
 
-a:hover{
+.address a:hover, .phone a:hover{
     color: var(--color-accent);
 }
 
@@ -229,6 +230,7 @@ header{
 }
 .right>p>a{
     color: #20273E;
+    font-size: 15px;
 }
 .right>p>a:hover{
     color: var(--text1-color);
@@ -347,3 +349,4 @@ footer .footer-up{
     align-items: center;
     line-height: 50px;
 }
+

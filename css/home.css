@@ -51,6 +51,7 @@ header{
 .left{
     display: flex;
     width: 50%;
+    gap: 5px;
 }
 .lefttext{
     padding-top: 10px;
@@ -77,7 +78,8 @@ header{
     font-family: var(--font-family);
     font-size: 15px;
     width: 60px;
-    margin-right: 8px;
+    /* margin-right: 8px; */
+    text-align: center;
     font-weight: 700;
 }
 .right>p:last-child{
