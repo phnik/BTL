@@ -1,0 +1,225 @@
+:root{
+    --color-primary: #0F99FF;
+    --color-secondary: #7AC7FC;
+    --color-text: #20273E;
+    --color-accent: #E11E2D;
+    --color-ccf94b7: #DEEEFA;
+    --color-gray: #828591;
+    --color-2bc01b9: #F0F3F5;
+    --color-54ba7c9: #FFFFFF;
+    --color-normal: #000000;
+    --color-2f46345: #606E79;
+
+    --text1-color: #E31937;
+    --text2-color: #20273E;
+    --text3-color: #606E8F;
+
+    --div1-color: #20273E;
+    --div2-color: #F0F3F5;
+
+    --block1-color: #7AC7FC;
+    --block2-color: #DEEEFA;
+    --block3-color: #0F99FF;
+
+    --font-family: "Metrophobic", sans-serif;
+
+    --margin-top-: 50px;
+    --max-width: 1280px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: Raleway, sans-serif;
+    background-color: #fff;
+}
+.container{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.headding-wraper{
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box{
+    /* width: 300px; */
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: var(--color-2bc01b9);
+    width: 600px;
+}
+
+.box h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.material-symbols-outlined{
+    color: var(--color-accent)
+}
+.btn-wraper{
+    margin-top: 40px;
+}
+.clinic-inf{
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--color-accent);
+    border: none;
+    box-sizing: border-box;
+    border: 2px solid var(--color-accent);
+    font-weight: 700;
+}
+
+.clinic-inf:hover{
+    background-color: white;
+    color: var(--color-accent);
+    border: 2px solid var(--color-accent);
+    /* border-width: 2px; */
+    cursor: pointer;
+}
+
+.schedule{
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    border-radius: 10px;
+    font-weight: 700;
+    color: var(--color-accent);
+    background-color: #fff;
+    border: 2px solid var(--color-accent);
+    margin-top: 10px;
+}
+
+.schedule:hover{
+    background-color: var(--color-accent);
+    color: white;
+    cursor: pointer;
+}
+
+.box h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a:hover{
+    color: var(--color-accent);
+}
+
+h1 span{
+    color: var(--color-accent);
+}
+
+.working-time{
+    border-left: 5px solid var(--color-accent);
+    padding-left: 20px;
+    margin: 0 0 20px 25px;
+    
+}
+
+.wkt-title{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    gap: 10px;
+}
+
+.time{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.352);
+    z-index: 10;
+
+}
+.left{
+    display: flex;
+    width: 50%;
+    gap: 5px;
+}
+.lefttext{
+    padding-top: 10px;
+}
+.left .up{
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    color: #20273E;
+
+}
+.down{
+    color: var(--text1-color);
+    font-family:cursive;
+}
+.right{
+    display: flex;
+    padding-right: 20px;
+    max-width: 500px;
+    
+}
+.right>p{
+    color: var(--text1-color);
+    font-family: var(--font-family);
+    font-size: 15px;
+    width: 60px;
+    /* margin-right: 8px; */
+    font-weight: 700;
+    text-align: center;
+}
+.right>p:last-child{
+    width: 85px;
+}
+.right>p>a{
+    color: #20273E;
+}
+.right>p>a:hover{
+    color: var(--text1-color);
+}
