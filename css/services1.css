@@ -14,7 +14,11 @@
     --block1-color: #7AC7FC;
     --block2-color: #DEEEFA;
     --block3-color: #0F99FF;
+<<<<<<< HEAD
     --color-primary: #0F99FF;
+=======
+
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
     --font-family: "Metrophobic", sans-serif;
 
     --margin-top-: 50px;
@@ -26,10 +30,17 @@
     margin: auto;
 }
 
+<<<<<<< HEAD
 /* body{
     width: 100vw;
 
 } */
+=======
+body{
+    width: 100vw;
+
+}
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 a{
     text-decoration: none ;
 }
@@ -99,6 +110,12 @@ header{
     margin-left: 50px;
     margin-right: 50px;
 }
+<<<<<<< HEAD
+=======
+body{
+    width: 100vw;
+}
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 
 .slogan{
     padding-top: 150px;
@@ -268,8 +285,13 @@ footer .footer-up{
     background-color: var(--div2-color);
     display: flex;
     height: 250px;
+<<<<<<< HEAD
     /* border-top-left-radius: 20px;
     border-top-right-radius: 20px; */
+=======
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 
 .footer-left{
@@ -362,8 +384,13 @@ footer .footer-up{
     width: 100%;
     height: 50px;
     background-color: #20273E;
+<<<<<<< HEAD
     /* border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px; */
+=======
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 .footer-down p{
     color: white;
@@ -371,6 +398,7 @@ footer .footer-up{
     justify-content: center;
     align-items: center;
     line-height: 50px;
+<<<<<<< HEAD
 }
 
 .back-to-top{
@@ -407,4 +435,6 @@ html{
     color: var(--color-primary);
 =======
 >>>>>>> 09729f78fc3c7d4f9dd503a755880b189c86f06d
+=======
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }

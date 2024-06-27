@@ -34,6 +34,7 @@
 
 body{
     font-size: 1.2rem;
+<<<<<<< HEAD
     /* font-family: Raleway, sans-serif; */
     font-family: var(--font-family);
     background-color: #fff;
@@ -43,6 +44,14 @@ body{
     max-width: var(--max-width);
     margin: 0 auto;
     font-family:var(--font-family);
+=======
+    font-family: Raleway, sans-serif;
+    background-color: #fff;
+}
+.container{
+    max-width: var(--max-width);
+    margin: 0 auto;
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 a{
     text-decoration: none;
@@ -95,7 +104,10 @@ a{
     border: none;
     box-sizing: border-box;
     border: 2px solid var(--color-accent);
+<<<<<<< HEAD
     font-family: var(--font-family);
+=======
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
     font-weight: 700;
 }
 
@@ -104,7 +116,10 @@ a{
     color: var(--color-accent);
     border: 2px solid var(--color-accent);
     /* border-width: 2px; */
+<<<<<<< HEAD
     font-family: var(--font-family);
+=======
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
     cursor: pointer;
 }
 
@@ -117,7 +132,10 @@ a{
     background-color: #fff;
     border: 2px solid var(--color-accent);
     margin-top: 10px;
+<<<<<<< HEAD
     font-family: var(--font-family);
+=======
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 
 .schedule:hover{
@@ -126,11 +144,14 @@ a{
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .schedule a{
     color: inherit;
 }
 
 
+=======
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 .box h2{
     font-size: 1.5rem;
     font-weight: 600;
@@ -150,7 +171,11 @@ a{
     gap: 10px;
 }
 
+<<<<<<< HEAD
 .address a:hover, .phone a:hover{
+=======
+a:hover{
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
     color: var(--color-accent);
 }
 
@@ -230,6 +255,7 @@ header{
 }
 .right>p>a{
     color: #20273E;
+<<<<<<< HEAD
     font-size: 15px;
 }
 .right>p>a:hover{
@@ -384,4 +410,9 @@ html{
     color: var(--color-primary);
 =======
 >>>>>>> 09729f78fc3c7d4f9dd503a755880b189c86f06d
+=======
+}
+.right>p>a:hover{
+    color: var(--text1-color);
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }

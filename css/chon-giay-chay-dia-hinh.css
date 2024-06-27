@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *,
 *::after,
 *::before {
@@ -5,6 +6,12 @@
   padding: 0;
   box-sizing: border-box !important;
   scroll-behavior: smooth;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 
 :root{
@@ -34,9 +41,15 @@
 }
 
 body{
+<<<<<<< HEAD
     font-family: var(--font-family);
     background-color: var(--color-bg);
     /* line-height: 1.6; */
+=======
+    font-family: Raleway, sans-serif;
+    background-color: var(--color-bg);
+    line-height: 1.6;
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 
 .signature-header{
@@ -105,7 +118,11 @@ body{
     padding: 20px 30px;
 }
 
+<<<<<<< HEAD
 .content p{
+=======
+p{
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
     color: var(--color-blog-text);
     font-size: 1.125rem;
     margin-bottom: 20px;
@@ -253,16 +270,28 @@ header{
     display: flex;
     width: 50%;
     gap: 5px;
+<<<<<<< HEAD
 }
 .lefttext{
     padding-top: 10px;
+=======
+    /* align-items: center; */
+}
+.lefttext{
+    padding-top: 10px;
+    /* align-items: center; */
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 .left .up{
     display: flex;
     font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
     color: #20273E;
+<<<<<<< HEAD
     /* margin: 0; */
+=======
+
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 .down{
     color: var(--text1-color);
@@ -280,8 +309,13 @@ header{
     font-size: 15px;
     width: 60px;
     /* margin-right: 8px; */
+<<<<<<< HEAD
     text-align: center;
     font-weight: 700;
+=======
+    font-weight: 700;
+    text-align: center;
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 .right>p:last-child{
     width: 85px;
@@ -295,6 +329,7 @@ header{
 
 a{
     text-decoration: none;
+<<<<<<< HEAD
 }
 
 footer{
@@ -447,4 +482,6 @@ footer .footer-up{
     color: var(--color-primary);
 =======
 >>>>>>> 09729f78fc3c7d4f9dd503a755880b189c86f06d
+=======
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }

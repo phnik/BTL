@@ -15,7 +15,10 @@
     --block2-color: #DEEEFA;
     --block3-color: #0F99FF;
 
+<<<<<<< HEAD
     --color-primary: #0F99FF;
+=======
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
     --font-family: "Metrophobic", sans-serif;
 
     --margin-top-: 50px;
@@ -764,6 +767,7 @@ header{
 }
 
 
+<<<<<<< HEAD
 .slideshow-parents{
     width: 100%;
     height: 650px;
@@ -786,12 +790,16 @@ header{
 }
 
 .slideshow-container { 
+=======
+.slideshow-container { /* Thêm style cho thẻ cha */
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .slideshow{
+<<<<<<< HEAD
     width: 800px ;
     overflow: hidden;
 
@@ -799,6 +807,14 @@ header{
 .list-images{
     display: flex;
     transition: transform 0.5s ease;
+=======
+    width: 800px;
+    overflow: hidden;
+}
+.list-images{
+    display: flex;
+    transition: 0.5s;
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
 .btn:hover{
     color: white;
@@ -807,12 +823,17 @@ header{
     font-size: 40px;
     color: #999;
     position: absolute;
+<<<<<<< HEAD
     top: 3230px;
+=======
+    top: 50%;
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
     transform: translateY(-50%);
     transition: 0.5s;
     cursor: pointer;
 }
 .btn-left{
+<<<<<<< HEAD
     left: 100px;
 }
 .btn-right{
@@ -937,6 +958,13 @@ header{
     background-color: #deeefa4d;
     color:var(--text2-color);
 }
+=======
+    left: 230px;
+}
+  .btn-right{
+    right: 230px;
+  }
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 
 
 footer{
@@ -1054,6 +1082,7 @@ footer .footer-up{
     justify-content: center;
     align-items: center;
     line-height: 50px;
+<<<<<<< HEAD
 }
 
 .back-to-top{
@@ -1090,4 +1119,6 @@ html{
     color: var(--color-primary);
 =======
 >>>>>>> 09729f78fc3c7d4f9dd503a755880b189c86f06d
+=======
+>>>>>>> bda58862b34af5a7dfacacc39f652b5c60d0f359
 }
