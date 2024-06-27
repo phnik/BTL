@@ -806,7 +806,7 @@ header{
     font-size: 40px;
     color: #999;
     position: absolute;
-    top: 3000px;
+    top: 3230px;
     transform: translateY(-50%);
     transition: 0.5s;
     cursor: pointer;
@@ -1053,4 +1053,24 @@ footer .footer-up{
     justify-content: center;
     align-items: center;
     line-height: 50px;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Ẩn nút ban đầu */
+    background-color:#20273E; /* Màu nền nút */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.back-to-top:hover {
+    background-color:#E31937; /* Màu nền khi hover */
 }
