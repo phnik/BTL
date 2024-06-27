@@ -15,6 +15,7 @@
     --block2-color: #DEEEFA;
     --block3-color: #0F99FF;
 
+    --color-primary: #0F99FF;
     --font-family: "Metrophobic", sans-serif;
 
     --margin-top-: 50px;
@@ -778,7 +779,7 @@ header{
     margin-left: 30px;
     padding-left: 20px;
     height: 40px;
-    width: 250px;
+    width: 400px;
     background-color: white;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -1053,4 +1054,37 @@ footer .footer-up{
     justify-content: center;
     align-items: center;
     line-height: 50px;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Ẩn nút ban đầu */
+    background-color:#20273E; /* Màu nền nút */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.back-to-top:hover {
+    background-color:#E31937; /* Màu nền khi hover */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.footer-mid p a{
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-mid p a:hover{
+    color: var(--color-primary);
 }
