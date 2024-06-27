@@ -401,6 +401,7 @@ footer .footer-up{
 
 .back-to-top:hover {
     background-color:#E31937; /* Màu nền khi hover */
+<<<<<<< HEAD
 }
 
 html{
@@ -414,4 +415,6 @@ html{
 
 .footer-mid p a:hover{
     color: var(--color-primary);
+=======
+>>>>>>> 09729f78fc3c7d4f9dd503a755880b189c86f06d
 }

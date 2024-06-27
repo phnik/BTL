@@ -872,6 +872,10 @@ footer .footer-up{
     line-height: 50px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 09729f78fc3c7d4f9dd503a755880b189c86f06d
 .back-to-top{
     position: fixed;
     bottom: 20px;
@@ -890,6 +894,7 @@ footer .footer-up{
 
 .back-to-top:hover {
     background-color:#E31937; /* Màu nền khi hover */
+<<<<<<< HEAD
 }
 
 html{
@@ -903,4 +908,6 @@ html{
 
 .footer-mid p a:hover{
     color: var(--block3-color);
+=======
+>>>>>>> 09729f78fc3c7d4f9dd503a755880b189c86f06d
 }
